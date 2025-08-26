@@ -1,0 +1,44 @@
+# Python virtual environment
+.venv/
+
+# VS Code settings folder
+.vscode/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+
+# Results directory (if you don't want to track output results)
+results/
+
+# IDE-specific files (e.g., for PyCharm)
+.idea/
+
+# Operating system files
+.DS_Store      # For macOS
+Thumbs.db      # For Windows
+
+# Python dependencies
+*.egg-info/
+
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.whl
+
+*.csv
+*.tsv
+
+# Dataset directories
+dataset/
+scripts/temp_processed_0.csv
+scripts/catboost_info/**/*.tsv
+
+# Other editor-specific files you may want to ignore
+.sublime-workspace
+.sublime-project
